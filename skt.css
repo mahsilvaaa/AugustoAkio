@@ -1,0 +1,153 @@
+.sour {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+  }
+  
+  .barrio {
+    font-family: "Barrio", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  
+ 
+}
+
+header {
+  background-color: #a7a14d; 
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img.perfil-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+header .frase-impacto {
+  font-style: italic;
+  color: #fff;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #000000; /* Ouro */
+  margin-bottom: 20px;
+}
+
+#sobre p, #detalhes p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+ .augustoimg {
+  text-align: center;
+
+}
+
+.portfolio-categorias {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.categoria {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.categoria img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.servicos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.servicos li {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.comentarios {
+  margin-top: 20px;
+}
+
+.comentario {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #c9af45; /* Ouro Olimpico */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+form button:hover {
+  background-color: #ffcc00; /* Tom mais intenso de amarelo */
+}
+
+.redes-sociais a {
+  margin-right:
+}
+
+.perfil {
+
+  width: 500px;
+  height: 500px;
+}
